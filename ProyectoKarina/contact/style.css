@@ -1,0 +1,95 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #E1D4C1, #F4E1D2);
+}
+
+.container {
+    display: flex;
+    margin: 32px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4.5px);
+    top: 1.5rem;
+    left: 30px;
+    right: 30px;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    width: 1104px;
+    height: 90px;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 12px;
+    width: 10000px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: row;
+}
+
+.navbar-nav li {
+    display: inline;
+    font-size: 0.875rem;
+    letter-spacing: .015rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    padding: 30px;
+    cursor: pointer;
+}
+
+.nav-right {
+    margin-right: 80px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+a .na-link {
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+.cart {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.user {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.text-left {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.header-title {
+    font-size: 35px;
+}
