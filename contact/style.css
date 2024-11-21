@@ -141,3 +141,108 @@ input{
 .comment-button:hover {
     background-color: rgba(255, 255, 255, 1);
 }
+.upper {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E1D4C1;
+}
+
+.divcontainer {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.row {
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.widget {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.widget-title {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    letter-spacing: 0.25px;
+}
+
+.col-6 {
+    padding-right: 50px;
+    padding-left: 12px;
+}
+
+.mb2 {
+    margin-bottom: 20px;
+}
+
+.comment-form {
+    display: flex;
+}
+
+.input-control {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: solid 1px white;
+    font-size: 14px;
+}
+
+.button-control {
+    padding-left: 36px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 36px;
+    border-radius: 8px;
+    border: solid 1px #6E493A;
+    background-color: #6E493A;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.button-ico {
+    width: 15px;
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E1D4C1;
+    width: 100%;
+}
+
+.footcontainer {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.left-area {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.right-area {
+    padding-left: 12px;
+    padding-right: 12px;
+}
