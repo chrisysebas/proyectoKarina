@@ -406,3 +406,18 @@ a{
     color: black;
     text-decoration: none;
 }
+
+.gallery-title {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 100px 100 auto;
+}
+
+.imagen {
+    width: 19%;
+}

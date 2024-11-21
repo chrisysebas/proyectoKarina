@@ -112,3 +112,32 @@ header{
 input{
     border: 1px;
 }
+
+.contact-button {
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 16px;
+    transition: 0.5s ease;
+}
+
+.contact-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.comment-input {
+    border-radius: 16px;
+    padding: 10px 20px
+}
+
+.comment-button {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s ease;
+}
+
+.comment-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
