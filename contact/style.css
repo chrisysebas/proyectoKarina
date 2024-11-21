@@ -93,3 +93,22 @@ a .na-link {
 .header-title {
     font-size: 35px;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    width: 100px;
+    margin: auto;
+}
+button{
+    margin-left: 30px;
+    background-color: aliceblue;
+    border: 2px;
+}
+header{
+    text-align: center;
+}
+input{
+    border: 1px;
+}
